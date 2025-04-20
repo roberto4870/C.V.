@@ -1,0 +1,173 @@
+#imagen {
+    border: 1px solid;
+    width: 20vw;
+    grid-area: imagen;
+}
+#nombre_profesion {
+    font-size: 40px;
+    color:blue;
+    font-family: Arial, Helvetica, sans-serif;
+    grid-area: nombre;
+}
+#detalles {
+    font-size: 22px;
+    color:rgb(100, 9, 179);
+    font-family: Arial, Helvetica, sans-serif;
+    grid-area: detalles;
+}
+#contacto {
+    font-size: 15px;
+    color:rgb(93, 7, 174);
+    font-family: Arial, Helvetica, sans-serif;
+    grid-area: contacto;
+}
+
+#fecha-nacimiemto {
+    font-size: 15px;
+    color:rgb(93, 7, 174);
+    font-family: Arial, Helvetica, sans-serif;
+    grid-area: fecha;
+}
+
+#nacionalidad {
+    font-size: 15px;
+    color:rgb(93, 7, 174);
+    font-family: Arial, Helvetica, sans-serif;
+    grid-area: nacionalidad;
+}
+#perfil {
+    font-size: 22px;
+    color: rgb(7, 80, 80);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    grid: perfil;
+}
+#zanata {
+    font-size: 15px;
+    color: rgb(7, 80, 80);
+    font-family: 'Times New Roman', Times, serif;
+}
+#formacion {
+    font-size: 22px;
+    color:rgb(93, 7, 174);
+    font-family: Arial, Helvetica, sans-serif;
+    grid: formacion;
+}
+#ocupacion { 
+    font-size: 15px;
+    color:rgb(93, 7, 174);
+    font-family: Arial, Helvetica, sans-serif;
+    grid: ocupacion;
+}
+#titulos { 
+    font-size: 15px;
+    color:rgb(93, 7, 174);
+    font-family: Arial, Helvetica, sans-serif;
+    grid: titulos;
+}
+#experiencia{
+    font-size: 22px;
+    color: rgb(117, 95, 61);
+    font-family: Arial, Helvetica, sans-serif;
+    grid: experiencia;
+}
+#docente{
+    font-size: 15px;
+    color: rgb(117, 95, 61);
+    font-family: Arial, Helvetica, sans-serif;
+    grid: docente;
+}
+#competente{
+    font-size: 22px;
+    color: rgb(117, 95, 61);
+    font-family: Arial, Helvetica, sans-serif;
+    grid: competente;
+}
+#uno{
+    font-size: 15px;
+    color: rgb(117, 95, 61);
+    font-family: Arial, Helvetica, sans-serif;
+    grid: uno;
+}
+#dos{
+    font-size: 15px;
+    color: rgb(117, 95, 61);
+    font-family: Arial, Helvetica, sans-serif;
+    grid: dos;
+}
+#tres{
+    font-size: 15px;
+    color: rgb(117, 95, 61);
+    font-family: Arial, Helvetica, sans-serif;
+    grid: tres;
+}
+#cuatro{
+    font-size: 15px;
+    color: rgb(117, 95, 61);
+    font-family: Arial, Helvetica, sans-serif;
+    grid: cuatro;
+}
+
+#contenedor-imag-profe{
+    color: wheat;
+    padding: 5px;
+    background-color: rgb(0, 255, 85);
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-template-rows:auto;
+    grid-template-areas: 
+                "imagen imagen nombre nombre";
+}
+
+#contenedor-detalles{
+    color: wheat;
+    padding: 5px;
+    background-color: rgb(228, 236, 116);
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas: 'detalles'
+                         'contacto'
+                         'fecha'
+                         'nacionalidad';
+}
+#contenedor-perfil{
+    color: rgb(240, 235, 227);
+    padding: 5px;
+    background-color: rgb(227, 138, 213);
+    display: grid;
+    grid-template-columns: 30% auto auto;
+    grid-template-rows:auto;
+    
+}
+#contenedor-formacion{
+    color: wheat;
+    padding: 5px;
+    background-color: rgb(242, 153, 143);
+    display: grid;
+    grid-template-columns: 30% auto auto;
+    grid-template-rows:auto;
+    
+}
+#contenedor-experiencia{
+    color: wheat;
+    padding: 5px;
+    background-color: rgb(175, 227, 232);
+    display: grid;
+    grid-template-columns: 25% auto;
+    grid-template-rows:auto;
+    grid-template-areas: 
+                "experiencia docente";
+}
+#contenedor-competente{
+    color: wheat;
+    padding: 5px;
+    background-color: rgb(241, 233, 240);
+    display: grid;
+    grid-template-columns: 20% auto;
+    grid-template-rows: auto;
+    grid-template-areas: "competente uno tres";
+    
+}
+
+
+
